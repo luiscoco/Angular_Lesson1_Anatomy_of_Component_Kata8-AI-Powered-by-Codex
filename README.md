@@ -2,6 +2,24 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.6.
 
+## Kata8 Prompt
+
+```
+Kata 8 — Standalone vs NgModule
+Task:
+Rebuild the same UI twice:
+1.	Using NgModules
+2.	Using standalone components only
+Constraints:
+•	Count files required
+•	Count mental hops to trace dependencies
+Deliverable:
+•	Two implementations
+•	Short comparison comment
+Reflection Trigger:
+What mental burden does standalone remove?
+```
+
 ## Development server
 
 To start a local development server, run:
