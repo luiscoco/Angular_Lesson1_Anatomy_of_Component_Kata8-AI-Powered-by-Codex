@@ -1,0 +1,27 @@
+<main class="page">
+  <header class="page-header">
+    <p class="eyebrow">Kata 8</p>
+    <h1>Standalone vs NgModule</h1>
+    <p class="subtitle">
+      The same dashboard UI rendered twice to compare dependency tracing.
+    </p>
+  </header>
+
+  <section class="implementation" data-impl="ngmodule">
+    <div class="implementation__header">
+      <span class="implementation__tag">NgModule</span>
+      <h2>Module-wired dashboard</h2>
+      <p>A wrapper module exports the dashboard entry point.</p>
+    </div>
+    <ngmodule-dashboard></ngmodule-dashboard>
+  </section>
+
+  <section class="implementation" data-impl="standalone">
+    <div class="implementation__header">
+      <span class="implementation__tag">Standalone</span>
+      <h2>Direct-import dashboard</h2>
+      <p>Each component declares what it uses.</p>
+    </div>
+    <standalone-dashboard></standalone-dashboard>
+  </section>
+</main>

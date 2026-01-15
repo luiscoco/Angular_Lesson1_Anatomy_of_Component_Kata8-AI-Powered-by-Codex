@@ -1,0 +1,27 @@
+.card {
+  background: #ffffff;
+  padding: 1.2rem 1.3rem 1.4rem;
+  border-radius: 16px;
+  border: 1px solid rgba(35, 55, 72, 0.08);
+  box-shadow: 0 12px 24px rgba(35, 55, 72, 0.08);
+  border-top: 4px solid var(--card-accent);
+  display: grid;
+  gap: 0.45rem;
+  animation: fade-up 600ms ease both;
+}
+
+.card__metric {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink-900);
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--ink-500);
+}

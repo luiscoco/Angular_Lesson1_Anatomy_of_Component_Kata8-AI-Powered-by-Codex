@@ -1,0 +1,20 @@
+.dashboard {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.dashboard__header h3 {
+  margin: 0;
+  font-size: 1.45rem;
+}
+
+.dashboard__header p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-500);
+}
+
+.dashboard__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}

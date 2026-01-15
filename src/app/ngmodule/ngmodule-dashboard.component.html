@@ -1,0 +1,17 @@
+<div class="dashboard">
+  <div class="dashboard__header">
+    <h3>Shipping control room</h3>
+    <p>Module wrapper exports the dashboard entry point.</p>
+  </div>
+
+  <div class="dashboard__grid">
+    <ngmodule-card
+      *ngFor="let card of cards; let i = index"
+      [title]="card.title"
+      [metric]="card.metric"
+      [note]="card.note"
+      [accent]="card.accent"
+      [delay]="150 + i * 120"
+    ></ngmodule-card>
+  </div>
+</div>
